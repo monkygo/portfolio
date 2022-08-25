@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css" />
+    <script
+      type="text/javascript"
+      src="./resources/scripts/main.js"
+      defer
+    ></script>
+  </head>
+  <body class="page light">
+    <nav>
+      <h1 id="logo">Monky Go Banana</h1>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#project">Porjects</a></li>
+        <li class="navigation-item"><a href="#skill">Skills</a></li>
+        <li class="navigation-item"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" />
+        <label for="theme" class="toggle-label"
+          ><svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+            ></path></svg
+        ></label>
+      </div>
+    </nav>
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Monky Go Banana and am a programmer, mainly write code for
+              video games and frontend web development.
+            </p>
+            <p>
+              In my free time I like to keep up with Web3 technologies, go on a
+              hike, and get boba tea.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Poker Quest</h3>
+          </summary>
+          <img
+            src="./resources/img/poker_quest_promo3.png"
+            alt="Logo for Poker Quest"
+            class="project-image"
+          />
+          <p>
+            Poker Quest is a challenging fantasy roguelike where you make use of
+            a standard deck of playing cards - Ace, King, Queen, and so on. You
+            use the cards to empower your items in combat. Better hands often
+            trigger stronger abilities on your items.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Clicker Heroes</h3>
+          </summary>
+          <img
+            src="./resources/img/clicker_heroes_promo.jpg"
+            alt="Logo for Clicker Heroes"
+            class="project-image"
+          />
+          <p>
+            Start out by clicking on the monster to kill them, and get their
+            gold. Spend that gold on hiring new heroes and get more damage. The
+            more damage you deal, the more gold you will get. Feel the power as
+            you grow exponentially and become the greatest ever!
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>ABCmouse</h3>
+          </summary>
+          <img
+            src="./resources/img/abcmouse_classroom.png"
+            alt="Logo for ABCmouse"
+            class="project-image"
+          />
+          <p>Early learning academy.</p>
+        </details>
+      </section>
+      <section id="skill"></section>
+      <section id="contact"></section>
+    </main>
+  </body>
+</html>
