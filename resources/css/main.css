@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --font-color: var(--text-main);
 }
@@ -105,4 +109,21 @@ a {
 .toggle svg {
   width: 30px;
   height: auto;
+}
+
+#skill-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
+}
+
+#contact-container > * {
+  display: inline;
 }

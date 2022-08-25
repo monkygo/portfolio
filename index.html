@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/main.css" />
     <script
       type="text/javascript"
       src="./resources/scripts/main.js"
+      defer
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/2448e9051e.js"
+      crossorigin="anonymous"
       defer
     ></script>
   </head>
@@ -59,11 +67,12 @@
           <summary class="project-title">
             <h3>Poker Quest</h3>
           </summary>
-          <img
-            src="./resources/img/poker_quest_promo3.png"
-            alt="Logo for Poker Quest"
-            class="project-image"
-          />
+          <a href="https://playsaurus.com/PokerQuest.html" target="_blank"
+            ><img
+              src="./resources/img/poker_quest_promo3.png"
+              alt="Logo for Poker Quest"
+              class="project-image"
+          /></a>
           <p>
             Poker Quest is a challenging fantasy roguelike where you make use of
             a standard deck of playing cards - Ace, King, Queen, and so on. You
@@ -73,13 +82,31 @@
         </details>
         <details class="project">
           <summary class="project-title">
+            <h3>Clicker Heroes 2</h3>
+          </summary>
+          <a href="https://www.clickerheroes2.com/" target="_blank"
+            ><img
+              src="./resources/img/clicker_heroes2_promo.jpg"
+              alt="Logo for Clicker Heroes 2"
+              class="project-image"
+          /></a>
+          <p>
+            Clicker Heroes 2 is a game about the feeling of getting amazing
+            powerups. You will embark on a never-ending journey to defeat
+            mythical creatures, progressing through an infinite number of
+            worlds. There will always be another upgrade.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
             <h3>Clicker Heroes</h3>
           </summary>
-          <img
-            src="./resources/img/clicker_heroes_promo.jpg"
-            alt="Logo for Clicker Heroes"
-            class="project-image"
-          />
+          <a href="https://www.clickerheroes.com/" target="_blank"
+            ><img
+              src="./resources/img/clicker_heroes_promo.jpg"
+              alt="Logo for Clicker Heroes"
+              class="project-image"
+          /></a>
           <p>
             Start out by clicking on the monster to kill them, and get their
             gold. Spend that gold on hiring new heroes and get more damage. The
@@ -91,16 +118,39 @@
           <summary class="project-title">
             <h3>ABCmouse</h3>
           </summary>
-          <img
-            src="./resources/img/abcmouse_classroom.png"
-            alt="Logo for ABCmouse"
-            class="project-image"
-          />
+          <a href="https://www.abcmouse.com/" target="_blank"
+            ><img
+              src="./resources/img/abcmouse_classroom.png"
+              alt="Logo for ABCmouse"
+              class="project-image"
+          /></a>
           <p>Early learning academy.</p>
         </details>
       </section>
-      <section id="skill"></section>
-      <section id="contact"></section>
+      <section id="skill">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-python"></i>
+          <i class="fa-brands fa-unity"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linux"></i>
+          <i class="fa-brands fa-android"></i>
+          <i class="fa-brands fa-php"></i>
+          <i class="fa-brands fa-java"></i>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <div id="contact-container">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>monky.go.banana@gmail.com</h3>
+        </div>
+      </section>
     </main>
   </body>
 </html>
